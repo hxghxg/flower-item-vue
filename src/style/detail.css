@@ -1,0 +1,81 @@
+/* 
+* @Author: Marte
+* @Date:   2018-04-28 23:12:10
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-05-04 22:08:31
+*/
+#details{display: flex;overflow: hidden;flex-direction: column;}
+.head{flex:1;overflow-x:hidden;}
+.bar{position: fixed;top: 0px;width: 100%;height: 1.173333rem;z-index: 99;line-height: 1.173333rem;}
+.bar a{display: inline-block;padding: 0.133333rem;}
+.bar a img{padding: 0.106667rem 0.133333rem 0.133333rem 0.106667rem;width:0.933333rem;height:0.933333rem;border-radius: 50%;background: rgba(255, 255, 255, .5);}
+
+.bar a:first-child{float:left;}
+.bar a:last-child{float:right;}
+
+.figure{border-bottom: 1px solid #f5f5f5;}
+.figure img{width: 100%;height:10.906667rem}
+
+.main{border-bottom: 0.213333rem solid #f5f5f5;}   
+.main .title{padding: 0.32rem 0.426667rem 0.426667rem;border-bottom: 0.213333rem solid #f5f5f5;color: #232323;position:relative;}
+.main .title .collect{float:right;}
+.main .title .collect i img{width: 0.64rem;height: 0.64rem;display:block;position:relative;top:-0.008533rem}
+.main .title .info{font-size: 0.186667rem;}
+.main .title .price{margin-top: 0.266667rem;}
+.main .title .price .now_price{font-size: 0.533333rem;color: #f60;text-indent: -0.08rem;margin-right: 0.133333rem;}
+.main .title .price del{font-size: 0.16rem;color: #9b9b9b;}
+.main .info_huayu_box{padding: 0.16rem 0.426667rem;overflow: hidden;position: relative;}
+.main .info_huayu_box span{float:left;font-size:0.32rem;}
+.main .info_huayu_box p{padding: 0 0.32rem 0 0.32rem;margin-left: 0.64rem;font-size: 0.16rem;color: #9b9b9b;}
+
+.date_part{background-color: #fff;padding: 0.266667rem 0.426667rem;overflow: hidden;line-height: 0.266667rem;font-size: 0.266667rem;margin-top: 0.213333rem;margin-bottom: 0.213333rem;}
+.date_part .area_select p img{width: 0.533333rem;display: inline-block;vertical-align: middle;position: relative;left: 0.16rem;top: -0.053333rem;margin-right: 0.32rem;}
+.date_part .area_select p #chooseItem{font-size:0.24rem;}
+.date_part .area_select p .data_icon_box{float: right;position: relative;right: -0.08rem;}
+
+.deliver_date_area {border-top: 0.213333rem solid #f5f5f5;}
+.deliver_date_area .time_date_box{margin-top: 0.213333rem;}
+.deliver_date_area .time_date_box .open_app_box{padding: 0.266667rem 0.426667rem;}
+.deliver_date_area .time_date_box .open_app_arrow{background: url(//img02.hua.com/m/pro_detail/arrow_right_orange.png) no-repeat right;background-size: 0.32rem;}
+.deliver_date_area .time_date_box .open_app_arrow .oppen_app{font-size: 0.16rem;color: #f60;padding-left: 0.533333rem;background: url(//img02.hua.com/m/pro_detail/app_download_icon.png) no-repeat left;background-size: 0.453333rem;margin-left: -0.08rem;}
+
+.maidian_box {
+    border-bottom: 1px solid #f5f5f5;
+    border-top: 1px solid #f5f5f5;
+}
+.maidian_box img {
+    width: 100%;
+}
+
+.footer_cart {height: 1.306667rem;position:fixed;bottom:1.32rem;left:0;width:100%;background:#fff;}
+.footer_cart .cart_md{overflow:hidden;}
+.footer_cart ul{display:flex;align-items:center;width: 40%;    position: relative;float:left;}
+.footer_cart ul li{flex:1;position:relative;text-align:center;    font-size: 0.266667rem;}
+.footer_cart ul li a{display: inline-block;width: 100%;height: 100%;}
+.footer_cart ul li img {width: 0.64rem;margin: 0.133333rem auto 0px;}
+#cartCount {background-color: #f60;width: 0.346667rem;height: 0.346667rem;color: #FFF;line-height: 0.346667rem;border-radius: 100%;position: absolute;top: 0.16rem;right: 18%;font-style: normal;font-size: 0.266667rem;text-align: center;
+}
+.footer_cart .cart_md>a {
+    display: inline-block;
+    width: 30%;
+    height: 1.306667rem;
+    float: right;
+    text-align: center;
+    font-size: 0.373333rem;
+    color: #fff;
+    line-height: 1.306667rem;
+}
+.go_buy {
+    background: #f60;
+}
+.add_cart {
+    background: rgb(255, 167, 71);
+}
+
+.swiper-container-horizontal>.swiper-pagination {
+    bottom: 0.48rem;left: 0;width: 100%;
+}
+.swiper-container-horizontal>.swiper-pagination .swiper-pagination-bullet {
+    margin: 0 0.133333rem;cursor: pointer;width:0.186667rem;height:0.186667rem;
+}
+

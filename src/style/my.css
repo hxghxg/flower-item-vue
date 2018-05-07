@@ -1,0 +1,28 @@
+/* 
+* @Author: Marte
+* @Date:   2018-05-02 09:30:09
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-05-07 11:03:27
+*/
+.my_m{background: #F0EFED;}
+.my_t{height:3.546667rem;width: 100%;text-align: center;line-height:0.56rem;font-size: 0.4rem;background:url(../img/bg.png);background-size:cover;background-position:center;}
+.my_t .my_tt{height: 80px;position:relative;}
+.my_t .my_tt>img{display:inline-block;width: 0.533333rem;height: 0.533333rem;position:absolute;top:50%;left:10px;transform:translate(0,-50%);}
+.my_t .my_top{height: 80px;}
+.my_t p{line-height: 0.88rem;font-size:0.426667rem;}
+.my_nav{display:flex;width: 100%;height: 1.6rem;background:#fff;margin-bottom:0.213333rem;align-items:center;}
+.my_nav li{flex:1;position:relative;text-align:center;}
+.my_nav li i{width: 100%;height: 0.533333rem;display:block;position:relative;}
+.my_nav li img{display:block;width:0.533333rem;height:0.533333rem;text-align:center;position: absolute;top:0;left:50%;transform:translate(-50%,0);}
+
+.my_nav2{display:flex;width: 100%;background:#fff;flex-wrap:wrap;margin-bottom:0.213333rem;border-left:0.0028rem solid #ddd;border-top:0.013333rem solid #ddd;align-items:center;height: 4.28rem;}
+.my_nav2 li{flex:25%;text-align: center;}
+.my_nav2 li i{width: 100%;height: 0.533333rem;display:block;position:relative;}
+.my_nav2 li img{display:block;width:0.533333rem;height:0.533333rem;text-align:center;position: absolute;top:0;left:50%;transform:translate(-50%,0);}
+
+.my_nav3{margin-bottom:0.213333rem;height:0.8rem;background: #fff;padding:0 0.666667rem 0 0.4rem;position:relative;}
+.my_m span{line-height:0.8rem;}
+.my_m span img{display:inline-block;width: 0.4rem;height: 0.4rem;position:absolute;top:50%;transform:translate(0,-50%);}
+.zhuanye{width: 100%;height:2.133333rem;background: #fff;margin-bottom:0.213333rem;}
+
+

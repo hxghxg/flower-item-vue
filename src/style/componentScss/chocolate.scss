@@ -1,0 +1,57 @@
+.chocolate{
+    display:flex;
+    flex-direction:column;
+    overflow-x:hidden;
+    height:14.933333rem;
+    h1{
+        width:7.066667rem;
+        height:2.626667rem;
+        position:relative;
+        img{
+            width:100%;
+            height:100%;
+        }
+        span{
+            font-size:0.346667rem;
+            color:#fff;
+            position:absolute;
+            top:45%;
+            left:15%;
+        }
+    }
+    .product{
+        display:flex;
+        flex-direction:column;
+        .title{
+            font-size:0.32rem;
+            margin:0.506667rem 0;
+            color:#333;
+            a{
+                font-size:0.32rem;
+                color:#333;
+                float:right;
+            }
+        }
+        ul{
+            display:flex;
+            flex-wrap:wrap;
+            li{
+                margin:0 0.293333rem;
+                a{
+                    display:flex;
+                    flex-direction:column;
+                    align-items:center;
+                    img{
+                        width:1.733333rem;
+                        height:1.733333rem;
+                    }
+                    p{
+                        font-size:0.32rem;
+                        color:#333;
+                        line-height:0.613333rem;
+                    }
+                }
+            }
+        }
+    }
+}

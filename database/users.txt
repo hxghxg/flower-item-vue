@@ -1,0 +1,31 @@
+/* 1 */
+{
+    "_id" : ObjectId("5aea84da794f9f0630549ae6"),
+    "rgtype" : "email",
+    "uname" : "aa@aa.com",
+    "upsw" : "aaaaaa"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5aeabab3c3801c19a49387d9"),
+    "rgtype" : "email",
+    "uname" : "bb@bb.com",
+    "upsw" : "bbbbbb"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5aebb0b6b3a7a313981df953"),
+    "rgtype" : "phone",
+    "uname" : "13444444444",
+    "userlist" : []
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5aebb0c5b3a7a313981df954"),
+    "rgtype" : "email",
+    "uname" : "cc@cc.com",
+    "upsw" : "cccccc"
+}

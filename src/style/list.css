@@ -1,0 +1,16 @@
+/* 
+* @Author: Marte
+* @Date:   2018-05-01 10:49:11
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-05-05 16:34:31
+*/
+
+#f_list .list_t{display: flex;border-left:0.026667rem solid #E7E7E7;border-top:0.026667rem solid #E7E7E7;height:1.133333rem;width: 100%;background: #fff;}
+#f_list .header-bar{display:flex;height:1.066667rem;}
+#f_list .header-bar>li{flex:1;display:flex;align-items:center;position:relative;}
+#f_list .header-bar .aa{display:inline-block;width: 0.8rem;height: 0.533333rem;position:absolute;left:0;}
+#f_list .header-bar .bb{display:inline-block;width: 0.8rem;height: 0.533333rem;position:absolute;right:0.16rem;}
+#f_list .header-bar .cc{position:absolute;left:50%;transform:translate(-50%,0);}
+#f_list .list_t>li{flex:1;line-height:1.133333rem;text-align: center;border-bottom:0.026667rem solid #E7E7E7;border-right:0.026667rem solid #E7E7E7;flex:25%;}
+.shoping {flex-wrap:wrap;display: flex;padding:0.133333rem 0 0 0.133333rem;}
+.shoping li{ height: 6.533333rem;flex:40%;border:1px solid #ddd;margin:0 0.106667rem 0.133333rem 0; }

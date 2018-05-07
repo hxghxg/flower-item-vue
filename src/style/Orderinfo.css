@@ -1,0 +1,33 @@
+/* 
+* @Author: Marte
+* @Date:   2018-05-02 17:36:01
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-05-05 09:23:31
+*/
+#orderinfo{display: flex;flex-direction: column;}
+.header-bar{height: 1.173333rem;background: rgba(250, 250, 250, 0.9);border-bottom: 0.026667rem solid #E4E4E4;text-align: center;width:100%;display: flex;padding: 0 0.32rem;}
+.header-bar p{width:80%;font-size: 0.426667rem;line-height: 1.173333rem;}
+.header-bar a{flex:1;font-size: 0.64rem;line-height: 1.173333rem;}
+.header-bar a img{margin-top: 0.293333rem;}
+.main{border-top: 0.106667rem solid #F0EFED;}
+.main .shopping_box{font-size: 0.373333rem;}
+.main .shopping_box > div {padding: 0.346667rem 0.32rem;border-bottom: 0.026667rem solid #F0EFED;color: #444;}
+.main .shopping_box input,.main .shopping_box textarea{border:none;width: 75%;height:0.426667rem;font-size: 0.373333rem;}
+.main .shopping_box .city {overflow: hidden;}
+.main .porduct .single{overflow:hidden;}
+.main .porduct .single img {float: left;width: 1.173333rem;height: 1.28rem;}
+.main .porduct .single .price_num{float: right;line-height: 0.56rem;}
+.main .porduct .single .order_pro_num{font-size: 0.32rem;margin-top: 0.213333rem;text-align: right;}
+.main .shopping_box .order_person{border: none!important;padding: 0px!important;}
+.main .shopping_box .order_person > div {padding: 0.32rem;border-bottom: 0.026667rem solid #F0EFED;color: #444;}
+.main .shopping_box .switch_btn{font-size: 0.32rem;float: right;line-height: 0.56rem;}
+
+.fill{font-size: 0.32rem;}
+
+.go_into {float: right;background: url(//img02.hua.com/m/icon.png) no-repeat 0 -2.0rem;content: "";display: inline-block;width: 0.24rem;height: 0.4rem;margin-left: 14px;margin-top: 0.053333rem;transform: scale(0.8,0.8);
+}
+
+.footer-bar {position: fixed;bottom: 1.466667rem;width: 100%;line-height: 1.306667rem;font-size: 0.426667rem;color: #000;background-color: #fff;
+}
+.footer-bar p{padding-left: 0.4rem;color: #f60;font-size: 0.4rem;text-align: right;}
+.footer-bar p button{float: right;color: #fff;text-align: center;background-color: #f60;width: 3.466667rem;font-size: 0.426667rem;margin-left: 0.373333rem;height:1.306667rem;}

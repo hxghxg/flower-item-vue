@@ -1,0 +1,37 @@
+.remen{
+    display:flex;
+    flex-direction:column;
+    h1{
+        width:7.04rem;
+        height:2.266667rem;
+        img{
+            width:7.04rem;
+            height: 2.266667rem;
+        }
+
+    }
+    .title{
+        margin:0.506667rem 0px;
+        font-size:0.346667rem;
+        color:#393939;
+    }
+    .goods{
+        display:flex;
+        flex-wrap:wrap;
+        li{
+            margin:0 0.293333rem;
+            a{
+                display:flex;
+                flex-direction:column;
+                justify-content:center;
+                p{
+                    font-size:0.32rem;
+                    line-height:0.4rem;
+                    color:#686868;
+                    text-align:center;
+                    margin:0.133333rem 0px;
+                }
+            }
+        }
+    }
+}

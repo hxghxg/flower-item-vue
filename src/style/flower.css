@@ -1,0 +1,21 @@
+/* 
+* @Author: Marte
+* @Date:   2018-04-28 10:50:14
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-05-04 21:38:25
+*/
+html,body{height: 100%;}
+#f_flower{height: 100%;display: flex;flex-direction: column;}
+#f_header{height: 100px;background:#fff;border-bottom: 1px solid #ddd;display:flex;align-items:center;}
+#f_header i{width: 35px;height: 35px;position:absolute;top:36px;left:212px;}
+#f_header i>img{display:inline-block;width: 35px;height: 35px;}
+#f_header input{display:inline-block; flex:60%;border:1px solid #000;height: 40px;padding-left:40px;font-size: 26px;}
+#f_header span{flex:15%;text-align: center;font-size: 30px;}
+#f_header img{display:inline-block;flex:15%;padding:0 5%;}
+#f_main{flex:1;overflow-x:hidden;}
+#f_footer{background:#fff;width: 100%;border-top:1px solid #ddd;}
+#f_footer ul{display:flex;align-items:center;height: 100px;}
+#f_footer li{flex:1;position:relative;font-size:0.32rem ;text-align:center;}
+#f_footer li i{width: 100%;height:0.533333rem;display:block;position:relative;}
+#f_footer li img{display:block;width:0.533333rem;height:0.533333rem;text-align:center;position: absolute;top:0;left:50%;transform:translate(-50%,0);}
+     

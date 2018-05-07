@@ -1,0 +1,10 @@
+
+.classify{flex:1;display:flex;flex-direction:column;}
+.classify .header{height:1.173333rem;background:#F6F6F6;display:flex;justify-content:center;align-items: center;}
+.classify .header input{width:9.146667rem;height: 0.8rem;border:none;background:#fff;border-radius:10px;font-size:0.373333rem;color:#7B7B7B;}
+.classify .header span{display:block;width:0.64rem;height:0.64rem;background:url('../img/icon_Search.png')no-repeat;background-size:0.64rem 0.64rem;position:absolute;top:0.32rem;right:1.066667rem;}
+.classify .main{flex:1;background:#ccc;display:flex;}
+.classify .main .navs{width:2.533333rem;background:#F6F6F6;display:flex;flex-direction:column;}
+.classify .main .navs li{height:1.28rem;text-align:center;font-size:0.36rem;line-height:1.28rem;}
+.classify .main .navs li a{color:#161616;}
+.classify .main .right_main{flex:1;padding:0.213333rem;background:#fff;}
